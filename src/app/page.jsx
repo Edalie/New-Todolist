@@ -8,7 +8,6 @@ export default function Home() {
   const [tachesTerminees, setTachesTerminees] = useState([]);
   const [nouvelleTache, setNouvelleTache] = useState("");
 
-
   //const todo = {id:1, task:"finir le rapport journalier", status:false}
   const addTodo = () => {
     setTodos([...todos, { id: Date.now(), task: currentTodo, status: false }]);
@@ -26,7 +25,7 @@ export default function Home() {
 
   return (
     <div className=" h-screen  flex-col justify-center items-center">
-      <h1 className="text-center text-4xl font-bold  text-pink-600 ">
+      <h1 className="text-center text-4xl  p-10 font-bold  text-pink-600 ">
         TODO LISTE
       </h1>
       <div className="cursor-pointer">
